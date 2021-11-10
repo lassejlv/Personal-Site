@@ -1,0 +1,24 @@
+{
+  "name": "personal-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx live-server --port=3000",
+    "build": "tailwindcss -i src/tailwind.css -o dist/tailwind.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lassev05/Personal-Site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lassev05/Personal-Site/issues"
+  },
+  "homepage": "https://github.com/lassev05/Personal-Site#readme",
+  "dependencies": {
+    "tailwindcss": "^2.2.19"
+  }
+}
