@@ -4,9 +4,6 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
-    fontFamily: {
-      sans: ["Fira sans", "sans-serif"],
-    },
   },
   variants: {
     extend: {},

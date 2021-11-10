@@ -5,13 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="dist/tailwind.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Lasse Vestergaard</title>
   </head>
   <body>
-    <nav class="flex items-center justify-between bg-gray-800 h-20">
+    <nav class="flex items-center justify-between bg-gray-800 h-16 shadow-lg">
       <div class="logo">
-        <h1 class="ml-10 cursor-pointer text-white">Lasse Vestergaard</h1>
+        <h1 class="ml-10 cursor-pointer text-white font-mono text-xl">
+          Lasse Vestergaard
+        </h1>
       </div>
+      <ul class="flex">
+        <li class="mr-14">
+          <button
+            id="home-btn"
+            href="index.html"
+            class="
+              text-white
+              font-mono
+              bg-gray-600
+              p-3
+              pt-2
+              pb-2
+              pr-4
+              pl-4
+              rounded
+              hover:bg-gray-700
+              transition
+            "
+          >
+            <i class="fas fa-home"></i> Home
+          </button>
+        </li>
+      </ul>
     </nav>
+    <script src="src/scripts/main.js"></script>
   </body>
 </html>
