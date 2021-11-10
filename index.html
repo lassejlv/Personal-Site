@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="dist/tailwind.css" />
+    <link rel="stylesheet" href="src/css/main.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
@@ -22,12 +23,13 @@
         </h1>
       </div>
       <ul class="flex">
-        <li class="mr-14">
+        <!-- home btn -->
+        <li class="mr-3">
           <button
             id="home-btn"
             href="index.html"
             class="
-              text-white
+              text-white text-sm
               font-mono
               bg-gray-600
               p-3
@@ -43,8 +45,70 @@
             <i class="fas fa-home"></i> Home
           </button>
         </li>
+        <!-- about btn -->
+        <li class="mr-3">
+          <button
+            id="about-btn"
+            href="index.html"
+            class="
+              text-white text-sm
+              font-mono
+              bg-gray-600
+              p-3
+              pt-2
+              pb-2
+              pr-4
+              pl-4
+              rounded
+              hover:bg-gray-700
+              transition
+            "
+          >
+            <i class="fas fa-question"></i> About
+          </button>
+        </li>
+        <!-- projects btn -->
+        <li class="mr-3">
+          <button
+            id="projects-btn"
+            href="index.html"
+            class="
+              text-white
+              font-mono
+              text-sm
+              bg-gray-600
+              p-3
+              pt-2
+              pb-2
+              pr-4
+              pl-4
+              rounded
+              hover:bg-gray-700
+              transition
+            "
+          >
+            <i class="fas fa-code"></i> Projects
+          </button>
+        </li>
       </ul>
     </nav>
+    <!-- main section  -->
+    <main
+      class="
+        bg-cover bg-no-repeat bg-transparent
+        h-80
+        flex flex-column
+        text-center
+        justify-center
+        items-center
+        shadow-2xl
+      "
+    >
+      <h1 class="text-white text-2xl">
+        Front-end web developer from
+        <label class="text-red-600 cursor-pointer font-bold">DK</label>
+      </h1>
+    </main>
     <script src="src/scripts/main.js"></script>
   </body>
 </html>

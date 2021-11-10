@@ -1,0 +1,10 @@
+main {
+  background: url(../assets/background.jpg);
+}
+
+/* mobile */
+@media screen and (max-width: 600px) {
+  ul li button {
+    display: none;
+  }
+}
