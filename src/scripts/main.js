@@ -10,3 +10,7 @@ const aboutButton = document
   .addEventListener("click", () => {
     window.open("/about", "_blank");
   });
+
+const logo = document.querySelector(".logo").addEventListener("click", () => {
+  window.location.href = "/";
+});
