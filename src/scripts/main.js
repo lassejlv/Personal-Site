@@ -8,7 +8,7 @@ const homeButton = document
 const aboutButton = document
   .getElementById("about-btn")
   .addEventListener("click", () => {
-    window.open("/about", "_blank");
+    window.location.href = "/about";
   });
 
 const logo = document.querySelector(".logo").addEventListener("click", () => {

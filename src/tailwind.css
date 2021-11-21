@@ -1,3 +1,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  /* navbar  */
+  nav {
+    @apply flex items-center justify-between bg-gray-800 h-16 shadow-lg;
+  }
+
+  ul {
+    @apply flex;
+  }
+
+  li {
+    @apply mr-3;
+  }
+
+  .nav-btn {
+    @apply text-white text-sm font-mono bg-gray-600 p-3 pt-2 pb-2 pr-4 pl-4 rounded hover:bg-gray-700 transition;
+  }
+
+  .logo h1 {
+    @apply ml-10 cursor-pointer text-white font-mono text-xl;
+  }
+
+  /* main section */
+
+  main h1 {
+    @apply text-2xl text-white;
+  }
+
+  main span {
+    @apply font-bold filter drop-shadow-lg;
+  }
+}
+
+@layer components {
+  main {
+    @apply flex flex-col items-center justify-center;
+  }
+}
